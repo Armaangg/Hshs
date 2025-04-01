@@ -100,5 +100,6 @@ def fetch_instagram_profile():
     return jsonify(data)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    port = os.getenv("PORT", 5000) 
+    app.run(debug=True, port=port)
       
