@@ -3,7 +3,7 @@ const request = require("request");
 const app = express();
 
 // 🎯 Your backend
-const TARGET = "http://paradise-rewards.ddns.net:6259";
+const TARGET = "https://armaannnn.pythonanywhere.com/";
 
 app.use("/", (req, res) => {
   const targetUrl = TARGET + req.url;
